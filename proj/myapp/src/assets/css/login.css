@@ -1,0 +1,58 @@
+  
+  .login-container {
+    background-image: url(../image/icegif-770.gif);
+    background-color: aliceblue;
+    border-radius: 1.2rem;
+    width: 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 8%;
+    margin-left: 30%;
+    justify-content: center;
+    align-items:center;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    margin-left: 40px;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-group input {
+    margin-left: 47px;
+    padding: 10px;
+    font-size: 16px;
+    padding-right: 200px;
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  button {
+    padding: 10px 15px;
+    padding-left: -20px;
+    font-size: 16px;
+    background-color: #000a15;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4f1056;
+  }
+  

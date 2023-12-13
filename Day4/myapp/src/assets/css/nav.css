@@ -1,0 +1,12 @@
+.container{
+    background: linear-gradient(to right,rgb(239, 183, 183),rgb(196, 196, 229));
+    margin-top: -40px;
+    border-radius: 2rem;
+    display: flex;
+    width: 30vw;
+    height: 60vh;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
