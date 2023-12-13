@@ -1,0 +1,18 @@
+.footerbar{
+    background-image:url(../image/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif) ;
+    text-align: center;
+    justify-content: center;
+    border-radius: 2rem;
+    margin-top: 3.5%;
+    padding-bottom:2.7rem;
+    padding-top:2.7rem;
+    transition: background-image 0.5s; 
+    font-size: 30px;
+}
+.footerbar:hover {
+    background-image:url(../image/a1.jpg) ;
+    background-size: cover;
+  }
+marquee{
+    color: white;
+}

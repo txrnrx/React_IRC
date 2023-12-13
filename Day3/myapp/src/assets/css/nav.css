@@ -1,0 +1,24 @@
+
+.nav-links {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-image:url(../image/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif) ;
+    transition: background-image 0.5s; 
+    border-radius: 1rem;
+    padding: 8px;
+  }
+  p{
+    transition: background-color 0.5s; 
+    color:black;
+  }
+  .nav-links:hover {
+    background-image:url(../image/66e5f8465c5c94aab33931d3d35912bd.jpg) ;
+    
+  }
+  .nav-links:hover p{
+    color: whitesmoke;
+  }
+  nav p img{
+    width:60px;
+}

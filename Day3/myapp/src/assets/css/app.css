@@ -1,0 +1,14 @@
+body{
+    z-index: 1;
+    position: relative;
+    background-image: url(../image/fdb21c0e4f3dbb6ccd9a63c68fce8645.gif);
+    background-size: cover;
+    overflow: hidden;
+    transition: background-image 0.5s; 
+}
+body:hover {
+    background-image:url(../image/66e5f8465c5c94aab33931d3d35912bd.jpg) ;
+  }
+marquee{
+    margin-top: -1%;
+}
