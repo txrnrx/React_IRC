@@ -1,0 +1,88 @@
+h1{
+    margin-top: -5px;
+    text-align: center;
+    width: 500px;
+    font-size: 100px;
+    color:white;
+font-family: 'Kolker Brush', cursive;
+
+}
+body{
+    background: linear-gradient(to right, #fcfaf8f4, #f32f1a9f);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+.container{
+    background: linear-gradient(to right,rgb(239, 183, 183),rgb(196, 196, 229));
+    margin-top: -40px;
+    border-radius: 2rem;
+    display: flex;
+    width: 30vw;
+    height: 60vh;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inp-class{
+    border-radius: 0.9rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    width: 80%;
+    gap: 4rem;
+    border-bottom: 2px solid whitesmoke;
+}
+.inp-sub{
+    border-radius: 0.9rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    width: 80%;
+    gap: 4rem;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.inp-class:active{
+    border-bottom: 2px solid black;
+    
+}
+nav{
+    background: linear-gradient(to right,rgb(239, 183, 183),rgb(196, 196, 229));
+    display: flex;
+    padding: 0.6% 6%;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 0.9rem;
+}
+nav img{
+    width:90px;
+}
+.nav-links{
+    
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display:inline-block;
+    padding:10px 20px;
+    position:center;
+}
+.nav-links ul li a{
+    color: aliceblue;
+    font-family: 'Kolker Brush', cursive;
+    text-decoration:none;
+    font-size: 30px;
+}
+.header{
+    min-height:50%;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    position: center;
+}

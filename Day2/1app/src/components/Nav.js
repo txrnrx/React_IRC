@@ -1,0 +1,7 @@
+function nav(){
+    return(
+        <>
+            HELLO
+        </>
+    )
+}
